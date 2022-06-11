@@ -37,10 +37,10 @@ export default function ManualHeader() {
   }, []);
 
   return (
-    <nav className="p-5 border-b-2">
+    <nav className="p-5 border-b-2 flex justify-between">
       <h2 className="py-4 px-4 font-bold text-xl">
         {" "}
-        Connect to Wallet Button with Web3UiKit and Moralis
+        Connect to Wallet Button with React-Moralis and Moralis
       </h2>
       <ul className="">
         <li className="flex flex-row">
